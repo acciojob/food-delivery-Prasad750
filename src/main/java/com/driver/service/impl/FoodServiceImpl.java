@@ -203,7 +203,7 @@ public class FoodServiceImpl implements FoodService {
 
     }
 
-    public OperationStatusModel deleteFoo(String id) throws Exception {
+    public OperationStatusModel deleteFood(String id) throws Exception {
 
         OperationStatusModel operationStatusModel=new OperationStatusModel();
         operationStatusModel.setOperationName(RequestOperationName.DELETE.toString());
